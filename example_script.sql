@@ -31,4 +31,7 @@ CREATE TABLE nonvoter_records (
     voter_category voterType
 );
 
-IMPORT INTO nonvoter_records (id, education, race, gender, income_category, voter_category) CSV DATA ('https://raw.githubusercontent.com/mjanes71/megan-roach-demo/main/nonvoters_data.csv') WITH skip = '1';
+IMPORT INTO nonvoter_records 
+(id, education, race, gender, income_category, voter_category) 
+CSV DATA ('https://raw.githubusercontent.com/mjanes71/megan-roach-demo/main/nonvoters_data.csv') 
+WITH skip = '1';

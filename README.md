@@ -25,7 +25,7 @@ cockroach start-single-node --insecure --listen-addr=localhost:26257 --http-addr
 
 **Query Local Cockroach**
 ```
-cockroach sql –url ‘postgresql://root@localhost:26257/defaultdb?sslmode=disable’
+cockroach sql --url ‘postgresql://root@localhost:26257/defaultdb?sslmode=disable’
 ```
 
 **Stop Local Cockroach**

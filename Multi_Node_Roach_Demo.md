@@ -29,7 +29,7 @@ http://localhost:8080
 
 ### :page_facing_up: Create a database with a table and a few records 
 ```
-cockroach sql --url 'postgresql://root@localhost:26257/defaultdb?sslmode=disable'
+cockroach sql --insecure
 ```
 ```
 show databases;
@@ -50,7 +50,7 @@ show tables;
 ```
 
 ```
-show create gloria;
+select * from gloria;
 
 insert into gloria (songs) values 
 ('First Be a Woman'), 
@@ -121,4 +121,5 @@ kill -TERM ####
 
 Then remove the node dirs from your machine
 ```
-rm -rf node1 node2 node3 node4 node5```
+rm -rf node1 node2 node3 node4 node5
+```

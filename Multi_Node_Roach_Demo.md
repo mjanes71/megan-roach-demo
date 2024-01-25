@@ -105,4 +105,4 @@ show tables;
 select * from gloria;
 ```
 
-Now just for fun, before we tear everything down, let's kill one of the nodes with a ctrl+c in the term window running it. Check out the overview dashboard and watch it go from "suspect" to "dead". When that happens, we should see underreplicated ranges start to go down as re-replication and distribution happens.
+Now just for fun, before we tear everything down, let's kill two of the nodes with a ctrl+c in the term window running each one. Check out the overview dashboard and watch it go from "suspect" to "dead". When that happens, we should see underreplicated ranges start to go down as re-replication and distribution happens.

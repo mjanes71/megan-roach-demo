@@ -106,3 +106,14 @@ select * from gloria;
 ```
 
 Now just for fun, before we tear everything down, let's kill two of the nodes with a ctrl+c in the term window running each one. Check out the overview dashboard and watch it go from "suspect" to "dead". When that happens, we should see underreplicated ranges start to go down as re-replication and distribution happens.
+
+To cleanup, ctrl+c all other term windows that are running nodes or find the processes and kill them
+```
+ps -ef | grep cockroach | grep -v grep
+
+kill -TERM ####
+```
+
+Then remove the node dirs from your machine
+```
+rm -rf node1 node2 node3 node4 node5```

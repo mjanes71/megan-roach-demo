@@ -1,0 +1,2 @@
+# MEGAN-ROACH-DEMO
+As I do demos on different technologies, I like to gather my thoughts and steps in markdown so I can share those with folx who are interested.Peruse at your leisure. All pieces of these demos are constructed using a hodgepodge of the delightful [Cockroach Labs Docs and Tutorials](https://www.cockroachlabs.com/docs) that I've sifted through over time.

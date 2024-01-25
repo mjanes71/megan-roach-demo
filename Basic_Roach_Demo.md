@@ -1,4 +1,4 @@
-# megan-roach-demo
+# Basic Roach Demo
 
 This example script was created to perform a cockroachdb demo for Cincinnati Women Who Code. The csv data was borrowed from the [FiveThirtyEight story "Why Millions of Americans Don't Vote."](https://data.fivethirtyeight.com/)
 
